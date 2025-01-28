@@ -39,4 +39,4 @@ for index, row in df.iterrows():
         pdf.cell(w=0, h=12, txt=row["Topic"], align="R")
         pdf.set_text_color(180,180,180)
 
-pdf.output("output.pdf")
+pdf.output("outline.pdf")
